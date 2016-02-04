@@ -16,6 +16,20 @@ html, body {
     height: 100%;
 }
 
+/*Works but inside dialog box div so makes it clickable.. 
+but this can be used to close title box anyway so many be useful*/
+.title-dialog {
+    display: none;
+    position: absolute;
+    top: -50px;
+    left: 75px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10%;
+    background-color: rgb(127,127,127);
+}
+
 #sun {
     position: absolute;
     top: 75%;
@@ -56,7 +70,7 @@ html, body {
     width: 50px;
     z-index: 1;
     border-radius: 50%;
-    background: url(https://static.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg) -2px 2px/50px 50px no-repeat;
+    background: url(https://static.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg) -1px 1px/50px 50px no-repeat;
 }
 
 #earth-box {
@@ -88,7 +102,7 @@ html, body {
 .shadow:hover,
 .shadow:focus {
     cursor: pointer;
-    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6), 0 0 5px 5px rgba(102, 175, 233, 0.6) inset;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6), 0 0 5px rgba(102, 175, 233, 0.6) inset;
 }
 
 #moon {
@@ -103,7 +117,6 @@ html, body {
 }
 
 #moon-orbit {
-    
     height: 100%;
     width: 100%;
     

@@ -33,5 +33,13 @@ $(document).ready(function() {
 	$('#earth,.closebtn').click(function() {
 		$('body').toggleClass('hidden');
 	});
+	
+	$('#earth')
+		.mouseover(function () {
+			$('.title-dialog').css("display", "inline");
+		})
+		.mouseout(function() {
+			$('.title-dialog').css("display", "none");
+	});
 });
 		
